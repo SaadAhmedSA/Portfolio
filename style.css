@@ -1,0 +1,61 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  "Madimi One", sans-serif;;
+    position: relative;
+    
+
+  
+}
+header{
+    height: 100vh;
+    background-image: url("./images/bg\ 1.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+   
+   
+    padding-top: 10px;
+}
+.navbar{
+    background-color:rgb(31, 180, 185);
+    /* position:fixed; */
+   
+}
+ .content {
+    color:rgb(31, 180, 185);
+    /* text-align: justify; */
+    display: flex;
+    flex-direction: column;
+    padding-left:8%;
+    padding-top: 25vh;
+}
+section{
+    /* height: 200vh; */
+    color: rgb(82, 178, 241);
+background-color: rgb(7, 7, 26);
+}
+.col-md-6{
+   padding: 5%;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: justify;
+  
+    
+}
+.col-md-6 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    background:black;
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
+}
